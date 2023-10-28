@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-10-28 Sat 17:14 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Posts</title>
+<meta name="author" content="Alex Goodenbour" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" href="/res/main.css" type="text/css"/>
+</head>
+<body>
+<div id="preamble" class="status">
+<header class="header">
+<h3> <a id="header-title" href="/">Alex Goodenbour</a></h3>
+  <nav>
+      <a href="/about" target="">About</a>
+      <a href="/" target="">Home</a>
+      <!-- <a href="/posts" target="">Posts</a> -->
+  </nav>
+</header>
+</div>
+<div id="content" class="content">
+<h1 class="title">Posts</h1>
+<ul class='posts'><li><a href="posts/sft">Part III Notes: Statistical Field Theory - nil</a></li>
+<li><a href="posts/test">Testing org mode for a static site - October 28th, 2023</a></li>
+</ul>
+</div>
+<div id="postamble" class="status">
+<!-- comment -->
+<footer class="footer">
+<div class="footer-left">
+Created by Alex Goodenbour, 2023
+</div>
+<div class="footer-right">
+<a id='orglink' href="https://orgmode.org/manual/Publishing.html">
+<img id="emacsbadge" src="/res/made10.png">
+</a>
+</div>
+<div style="clear:both;" />
+</footer>
+
+<!-- Hack to get around the org-mode exporter -->
+<script>
+    // Get the elements by their IDs
+    const element1 = document.getElementById("preamble");
+    const element2 = document.getElementById("content");
+    const element3 = document.getElementById("postamble");
+
+    // Create a new div element
+    const wrapperDiv = document.createElement("div");
+    wrapperDiv.id = 'container';
+    wrapperDiv.className = 'container';
+
+    // Append the elements to the div
+    wrapperDiv.appendChild(element1);
+    wrapperDiv.appendChild(element2);
+    wrapperDiv.appendChild(element3);
+
+    // Get the body element where you want to insert the wrapper div
+    const body = document.body;
+
+    // Append the wrapper div to the body
+    body.appendChild(wrapperDiv);
+</script>
+</div>
+</body>
+</html>
