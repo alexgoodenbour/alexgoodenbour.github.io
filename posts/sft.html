@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2023-10-28 Sat 17:14 -->
+<!-- 2023-10-28 Sat 21:14 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Part III Notes: Statistical Field Theory</title>
@@ -46,13 +46,15 @@
 <body>
 <div id="preamble" class="status">
 <header class="header">
-<h3> <a id="header-title" href="/">Alex Goodenbour</a></h3>
+<h3> <a id="header-title" href="/">The Aleph</a></h3>
   <nav>
       <a href="/about" target="">About</a>
       <a href="/" target="">Home</a>
       <!-- <a href="/posts" target="">Posts</a> -->
   </nav>
 </header>
+<hr style="color: grey">
+<p class='date'>November 1, 2023</p>
 </div>
 <div id="content" class="content">
 <h1 class="title">Part III Notes: Statistical Field Theory</h1>
@@ -141,7 +143,7 @@ Wilson).
 <div id="outline-container-org7a9c0a4" class="outline-3">
 <h3 id="org7a9c0a4">1 - From Spins to Fields</h3>
 <div class="outline-text-3" id="text-org7a9c0a4">
-<div class="mdframed" id="org19c0457">
+<div class="mdframed" id="org590394d">
 <p>
 In which we consider the calculation of the partition function of the
 Ising model in the large \(N\) limit through various layers of
@@ -191,11 +193,9 @@ where the sum over \(<ij>\) means sum over pairs of nearest neighbours
 field.
 </p>
 
+<p>
 
-<div id="org3863648" class="figure">
-<p><img src="file:///home/alex/Documents/org/.attach/14/3ca60c-8dec-4c1c-973e-4ab45a22dd48/ising.png" alt="ising.png" />
 </p>
-</div>
 
 <p>
 Minimising energy means:
@@ -264,7 +264,7 @@ the partition function.
 Legendre transform)
 </p>
 
-<div class="mdframed" id="org56fcf4d">
+<div class="mdframed" id="orga4e8a84">
 <p>
 <b>Legendre transforms</b>
 </p>
@@ -556,7 +556,7 @@ called the <i>mean field</i> hence the name.
 <div id="outline-container-orgd4e7ba3" class="outline-5">
 <h5 id="orgd4e7ba3">Laundau approach to phase transitions</h5>
 <div class="outline-text-5" id="text-orgd4e7ba3">
-<div class="mdframed" id="org75601c7">
+<div class="mdframed" id="orge45d56e">
 <p>
 In which we take our partition function which has been reduced to a
 sum over the macroscopic quantity \(m\) and can be approximated by the
@@ -600,7 +600,7 @@ of this function changes as we vary the system parameters.
 
 <p>
 We have
-<img src="file:///home/alex/Documents/org/.attach/f0/ff6282-b696-48e4-be71-2ac24c9600e4/Screenshot from 2023-10-10 17-45-22.png" alt="Screenshot from 2023-10-10 17-45-22.png" />
+
 </p>
 
 <p>
@@ -617,11 +617,9 @@ should tend to \(\pm 1\) for low temperatures (i.e. alignment wins out
 over entropy) we can draw a global bifurcation diagram.
 </p>
 
+<p>
 
-<div id="org3807448" class="figure">
-<p><img src="file:///home/alex/Documents/org/.attach/f0/ff6282-b696-48e4-be71-2ac24c9600e4/Screenshot from 2023-10-10 17-49-36.png" alt="Screenshot from 2023-10-10 17-49-36.png" />
 </p>
-</div>
 
 <p>
 When we are on the \(m=0\) side i.e. above the critical temperature,
@@ -689,7 +687,7 @@ case.
 </p>
 
 <p>
-<img src="file:///home/alex/Documents/org/.attach/f0/ff6282-b696-48e4-be71-2ac24c9600e4/Screenshot from 2023-10-18 08-53-16.png" alt="Screenshot from 2023-10-18 08-53-16.png" />
+
 At low temperatures, two minima. One more stable than another. The
 less stable one is called <i>meta-stable</i>: by fluctuating up over the
 barrier it can become more stable.
@@ -700,11 +698,9 @@ The most important thing is that the ground state of the system does
 not qualitatively change as we vary the temperature.
 </p>
 
+<p>
 
-<div id="org14ca2d2" class="figure">
-<p><img src="file:///home/alex/Documents/org/.attach/f0/ff6282-b696-48e4-be71-2ac24c9600e4/Screenshot from 2023-10-18 08-56-23.png" alt="Screenshot from 2023-10-18 08-56-23.png" />
 </p>
-</div>
 
 <p>
 <i>"There is no phase transition as a function of the temperature for \(B
@@ -724,7 +720,7 @@ That path is: <b>keep \(T\) fixed and vary \(B\) above and below 0</b>.
 The stable and meta-stable states swap essentially. But there are only
 two states below the critical temperature so this phase transition
 only happens for \(B = 0,\ T<T_c\).
-<img src="file:///home/alex/Documents/org/.attach/f0/ff6282-b696-48e4-be71-2ac24c9600e4/Screenshot from 2023-10-18 09-10-03.png" alt="Screenshot from 2023-10-18 09-10-03.png" />
+
 So <i>the line of first order phase transitions ends in a second order
 phase transition at \(T = T_c\).</i> Weirdly though, we can just go around
 it to access all parts of the phase diagram.
@@ -819,7 +815,7 @@ integers or simple fractions and would appear to be irrational.
 <div class="outline-text-5" id="text-orge7be836">
 <p>
 Liquid-gas transitions show many similarities to the Ising model.
-<img src="file:///home/alex/Documents/org/.attach/3d/9eb045-c883-4592-a796-2d0493393dcc/Screenshot from 2023-10-18 21-09-53.png" alt="Screenshot from 2023-10-18 21-09-53.png" />
+
 </p>
 
 <p>
@@ -851,7 +847,7 @@ liquid-gas transitions.
 <div id="outline-container-orgdf3cef1" class="outline-4">
 <h4 id="orgdf3cef1">Landau-Ginzburg theory</h4>
 <div class="outline-text-4" id="text-orgdf3cef1">
-<div class="mdframed" id="org17c2a4e">
+<div class="mdframed" id="org874c9e2">
 <p>
 In which we consider assigning a whole function to each configuration
 instead of just a number. We average <i>locally</i> and partition the sum
