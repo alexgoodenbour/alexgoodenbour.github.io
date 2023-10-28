@@ -60,6 +60,7 @@ a {
     font-style: normal;
     font-size: 2em;
     font-family: "Volkhov", serif;
+    float:left;
 }
 
 a:hover, a:focus, a:active {
@@ -190,15 +191,9 @@ figure figcaption {
     margin: 0.2em 0;
 }
 
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 header nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+float:right;
+margin: 0.3em;
 }
 header a + a {
     margin-left: 1rem;
